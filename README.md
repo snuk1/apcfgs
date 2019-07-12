@@ -1,2 +1,2 @@
-# apcfgs
-This is the repo of the APCFGs app
+# APCFGs
+This is the repo of the APCFGs app :)
