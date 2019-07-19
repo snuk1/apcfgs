@@ -1,4 +1,6 @@
 # APCFGs APP
+### (Auto-Populate OPL CFGs files) by snuk
+
 I've made a tool that can auto-fill/auto-populate the CFGs files for the PlayStation 2 (PS2) Homebrew App: [Open PS2 Loader (OPL)](http://www.ps2-home.com/forum/viewtopic.php?f=83&t=3) with the following attribute fields for OPL's INFO page:
 (NOTE: these fields are supported by [OPL Manager](http://www.ps2-home.com/forum/viewtopic.php?f=13&t=189) .)
 
