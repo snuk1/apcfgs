@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: black;
+}
+
+/* STYLING THE SCROLLBAR */
+
+/* width */
+::-webkit-scrollbar {
+  width: 2vw;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #777; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius:1vw 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #333; 
+}
+
+/* END OF STYLING THE SCROLLBAR */
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body{
+    width: 100vh;
+    height: 100vw;
+    background-color: black;
+	overflow: hidden;
+}
+
+header{
+    width: 100%;
+    min-height: 20%;
+    overflow: auto;
+}
+
+h1{
+    line-height: 17vh;
+    text-align: center;
+    font-size: 6vw;
+    color: white
+}
+
+#info{
+    width: 100%;
+    height: 5vh;
+    text-align: center;
+    color:white;
+    padding-left: 5vw;
+    color: white
+}
+
+#main{
+    width: 100%;
+    min-height: 70%;
+    overflow: auto;
+    color: white
+}
+
+#input_wrapper{
+    width: 70vw;
+    height: 10vh;
+    color: white
+}
+
+#options_wrapper{
+    width:70vw;
+    height: 6vh;
+    color: white
+}
+
+#chk_wrapper{
+    width: 40%;
+    height: 100%;
+    float: left;
+    padding-top:2vh;
+    color: white
+}
+
+#slt_wrapper{
+    width: 60%;
+    height: 100%;
+    float: left;
+    padding-top: 2vh;
+    font-size: 2.5vw;
+    padding-left: 5vw;
+}
+
+#slt{
+    width: 20vw;
+    height: 4vh;
+    border-radius: 1vw;
+    font-size: 2.3vw
+}
+
+#info_title{
+    height: 1vh;
+    color:red
+}
+
+#lbl_txt{
+    width: 100%;
+    height: 50%;
+    font-size: 3vw;
+    display: flex;
+    align-items: center;
+    color: white
+}
+
+#txt_folder_path{
+    height: 50%;
+    width: 75%;
+    border-radius: 1vw;
+    color: black;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+#btn_conv{
+    width: 20%;
+    height: 50%;
+    margin-left: 2vw;
+    font-size: 2.5vw;
+    background-color: grey;
+    border-radius: 1vw;
+    transition: 0.5s;
+    color: white
+}
+
+#btn_conv:hover{
+    border: 0.25vw solid white;
+    cursor: pointer;
+    transition: 0.25s;
+    color: white
+}
+
+#btn_wrapper{
+    width: 21vw;
+    height: 6.5vh;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    color: white
+}
+
+#btn_send{
+    display: none;
+    height: 100%;
+    width: 100%;
+    background-color: grey;
+    border-radius: 1vw;
+    font-size: 3vw;
+    transition: 0.5s;
+    color: white
+}
+
+#btn_send:hover{
+    border: 0.25vw solid white;
+    cursor: pointer;
+    transition: 0.25s;
+    color: white
+}
+
+.r{
+    color: red;
+}
+
+.g{
+    color:#33cc33
+}
+
+#status{
+    width: 90vw;
+    height: 40vh;
+    font-size: 2.5vw;
+    padding: 1.5vw;
+    overflow-y: auto;
+    display: none;
+    color: white
+}
+
+#loading{
+    width: 25vh;
+    height: 25vh;
+    background-image: url(../images/loading.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white
+}
+
+h2{
+    text-align: center;
+    width: 100%;
+    height: 15%;
+    color: darkred;
+    font-size: 3vw;
+    margin-bottom: 5vh;
+    color: white
+}
+
+h3{
+    line-height: 3vh;
+    width: 100%;
+    text-align: center;
+    font-size: 2.5vw;
+    color: white
+}
+
+p{
+    width: 100%;
+    min-height: 4vh;
+    padding: 1vw;
+    overflow: auto;
+    text-align: justify;
+    color: white
+}
